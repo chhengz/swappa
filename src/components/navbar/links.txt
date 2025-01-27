@@ -1,0 +1,142 @@
+<nav class="navbar navbar-expand-lg bg-danger ">
+    <div class="container">
+
+      <div class="dropdown ">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Apple</button>
+        <ul class="dropdown-menu ">
+          <li><a class="dropdown-item" href="#">iphone</a></li>
+          <li><a class="dropdown-item" href="#">ipad</a></li>
+          <li><a class="dropdown-item" href="#">Apples watch</a></li>
+          <li><a class="dropdown-item" href="#">Airpods</a></li>
+          <li><a class="dropdown-item" href="#">Macbook Pro</a></li>
+          <li><a class="dropdown-item" href="#">Macbook Air</a></li>
+          <li><a class="dropdown-item" href="#">iMac</a></li>
+          <li><a class="dropdown-item" href="#">Mac mini</a></li>
+          <li><a class="dropdown-item" href="#">iPod</a></li>
+          <li><a class="dropdown-item" href="#">Apple TV</a></li>
+          <li><a class="dropdown-item" href="#">Vision Pro</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>All Apples</a></li>
+        </ul>
+      </div>  
+
+      <div class="dropdown">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">IPhones</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-unlock"></i>Unlocked</a></li>
+          <li><a class="dropdown-item" href="#">Iphone 16 series</a></li>
+          <li><a class="dropdown-item" href="#">Iphone 15 series</a></li>
+          <li><a class="dropdown-item" href="#">Iphone 14 series</a></li>
+          <li><a class="dropdown-item" href="#">Iphone 13 series</a></li>
+          <li><a class="dropdown-item" href="#">Iphone 12 series</a></li>
+          <li><a class="dropdown-item" href="#">Iphone Pro series</a></li>
+          <li><a class="dropdown-item" href="#">Iphone Max series</a></li>
+          <li><a class="dropdown-item" href="#">Iphone SE series</a></li>
+
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-circle-info"></i>Buyer's Guid</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-dollar-sign"></i>Sell iPhone</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>All iPhones</a></li>
+
+        </ul>
+      </div>  
+
+      <div class="dropdown">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">IPhones</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-unlock"></i>Unlocked</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-apple"></i>Apple</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-android"></i>Samsung</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-g"></i>Google</a></li>
+          <li><a class="dropdown-item" href="#">Verizon</a></li>
+          <li><a class="dropdown-item" href="#">T-Moblie</a></li>
+          <li><a class="dropdown-item" href="#">AT&T</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>All Phones</a></li>
+        </ul>
+      </div>  
+
+      <div class="dropdown ">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Laptops</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-apple"></i>Macbook</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-apple"></i>MacBook Pro</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-apple"></i>MacBook Air</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-chrome"></i>Chromebook</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-windows"></i>Windows</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-circle-info"></i>MacBook Guide</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>All Labtops</a></li>
+        </ul>
+      </div>  
+
+      <div class="dropdown ">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Snekers</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Air Jordan</a></li>
+          <li><a class="dropdown-item" href="#">Air Max</a></li>
+          <li><a class="dropdown-item" href="#">Air Max 1</a></li>
+          <li><a class="dropdown-item" href="#">Jordan 1</a></li>
+          <li><a class="dropdown-item" href="#">Jordan 4</a></li>
+          <li><a class="dropdown-item" href="#">Nike Dunks</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>All Sneakers</a></li>
+        </ul>
+      </div>  
+
+      <div class="dropdown dropdown-hover">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Watchs</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-apple"></i>Apple Watch</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-stopwatch"></i>Samsung Smartwatch</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-android"></i>Android Smartwatch</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>All Wearables</a></li>
+        </ul>
+      </div>  
+
+      <div class="dropdown dropdown-hover">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Tablets</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-apple"></i>iPad</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-android"></i>Samsung</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-windows"></i>Windows / Surface</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-amazon"></i>Amazon / Kindle</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>All Tablets</a></li>
+        </ul>
+      </div>  
+
+      <div class="dropdown dropdown-hover">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Video Game</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-playstation"></i>PlayStation 5</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-playstation"></i>PlayStation 4</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-xbox"></i>Xbox Series X/5</a></li>
+          <li><a class="dropdown-item" href="#">Nintendo Switch</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-xbox"></i>Games</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>All Gaming</a></li>
+        </ul>
+      </div>  
+      
+      <div class="dropdown dropdown-hover">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">More</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Audio & AirPods</a></li>
+          <li><a class="dropdown-item" href="#">Cameras & Lenses</a></li>
+          <li><a class="dropdown-item" href="#">Computers</a></li>
+          <li><a class="dropdown-item" href="#">Drones</a></li>
+          <li><a class="dropdown-item" href="#">Fitness & Cycling</a></li>
+          <li><a class="dropdown-item" href="#">Home Tech</a></li>
+        </ul>
+      </div>  
+      <div class="dropdown dropdown-hover">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Sell</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-apple"></i>iPhone</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-mobile-screen-button"></i>Phones</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-laptop"></i>Laptop</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-apple"></i>MacBook</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-stopwatch"></i>Watch</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-shoe-prints"></i>Sneakers</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-volume-high"></i>Audio</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-gamepad"></i>Video Gaming</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-hand-holding-dollar"></i>Trade-in</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>Sell Used Tech</a></li>
+        </ul>
+      </div>  
+    </div>
+    </nav>

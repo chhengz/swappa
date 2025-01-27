@@ -15,13 +15,14 @@ function App() {
         {
           index: true,
           element: <Home />
+        },
+        {
+          path: '/about',
+          element: <About />
         }
       ]
     },
-    {
-      path: '/about',
-      element: <About />
-    }
+    
   ])
 
   return (

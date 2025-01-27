@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import links from './index'
+import links from './index'
 import {Logo , LogoWithText} from '../../assets/images'
 
 
@@ -9,9 +9,9 @@ const styleImage = {
 }
 
 const navLinks = [
-    {label: '', path: '#', className: 'fa-solid fa-circle-question' },
-    {label: '', path: '#', className: 'fa-solid fa-user' },
-    {label: '', path: '#', className: 'fa-solid fa-cart-shopping' },
+    {label: '1', path: '#', className: 'fa-solid fa-circle-question' },
+    {label: '2', path: '#', className: 'fa-solid fa-user' },
+    {label: '3', path: '#', className: 'fa-solid fa-cart-shopping' },
 ]
 
 
