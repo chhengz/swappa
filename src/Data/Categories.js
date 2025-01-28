@@ -25,6 +25,5 @@ export const categories = [
         title: "Watches",
         description: "",
         path: '/watch'
-
     }
 ]

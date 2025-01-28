@@ -10,5 +10,5 @@ export { default as ErrorPage } from './ErrorPage'
 export { default as CardCategories } from '../components/Card/CardCategories'
 export { default as CarrierCardList } from '../components/Card/CarrierCardList'
 export { default as CardFeature } from '../components/Card/CardFeature'
-
+export { default as CardBrands } from '../components/Card/CardBrands'
 
