@@ -10,10 +10,12 @@ const navLinks = [
   { label: <ShoppingCart />, path: '/shop', className: 'fa-solid fa-cart-shopping' },
 ]
 
+
+
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-success" style={{ width: 100 + `%`, height: 80 + `px` }}>
+      <nav className="navbar navbar-expand-lg bg-success" style={{ width: 100 + `%`, height: 80 + `px`, position: `fixed`, top: 0+`px`, zIndex: 1000 }}>
         <div className="container  gap-3">
           <img src={LogoWithText} style={{ width: 20 + `%` }} />
           <form className="container">
@@ -36,7 +38,8 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <nav className="navbar navbar-expand-lg bg-danger ">
+
+      <nav className="navbar navbar-expand-lg bg-danger " style={{marginTop: 80 + `px`}}>
         <div className="container">
           {
             links.map((link, index) => {

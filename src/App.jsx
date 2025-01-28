@@ -1,5 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
 import RootLayout from "./Layout/RootLayout"
+import BuyLayout from "./Layout/BuyLayout"
 import {Home, About, ErrorPage} from './pages'
 
 
@@ -22,6 +23,10 @@ function App() {
         }
       ]
     },
+    {
+      path: '/buy',
+      element: <BuyLayout />
+    }
     
   ])
 
