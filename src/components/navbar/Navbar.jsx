@@ -5,9 +5,9 @@ import { links } from './index'
 import { Logo, LogoWithText } from '../../assets/images'
 
 const navLinks = [
-  { label: <CircleHelp />, path: '/help', className: 'fa-solid fa-circle-question' },
-  { label: <CircleUserRound />, path: '/login', className: 'fa-solid fa-user' },
-  { label: <ShoppingCart />, path: '/shop', className: 'fa-solid fa-cart-shopping' },
+  { label: <CircleHelp />,        path: '/help',    className: 'fa-solid fa-circle-question' },
+  { label: <CircleUserRound />,   path: '/login',   className: 'fa-solid fa-user' },
+  { label: <ShoppingCart />,      path: '/shop',    className: 'fa-solid fa-cart-shopping' },
 ]
 
 
@@ -26,13 +26,11 @@ const Navbar = () => {
           <div className="containter">
             <ul className="navbar-nav m-5" style={{ fontSize: 20 + 'px' }}>
               {
-                navLinks.map((link, index) => {
-                  return (
-                    <li key={index} className="nav-item">
-                      <Link to={link.path} className={link.className}>{link.label}</Link>
-                    </li>
-                  )
-                })
+                navLinks.map((link, index) => (
+                  <li key={index} className="nav-item">
+                    <Link to={link.path} className={link.className}>{link.label}</Link>
+                  </li>
+                ))
               }
             </ul>
           </div>
