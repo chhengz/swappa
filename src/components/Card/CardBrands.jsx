@@ -7,7 +7,7 @@ const CardBrands = () => {
             <div className="row row-cols row-cols-md-6 justify-content-center d-flex mt-5 w-75 mx-auto">
                 {
                     brands.map((card) => (
-                        <div className="col" key={card.id}>
+                        <div className="col mb-4" key={card.id}>
                             <div className="card">
                                 <img src={card.img} className="card-img-top" alt="AT&T" />
                                 <p className="text-center text-success">{card.title}</p>

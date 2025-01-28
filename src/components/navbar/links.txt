@@ -151,3 +151,77 @@
       </div>  
     </div>
     </nav>
+
+
+
+
+
+
+
+
+Buy
+Buyer Guides
+Buy Phones
+Buy Tablets
+Buy MacBooks
+Buy Laptops
+Buy iPhones
+Buy Apple
+Unlocked Phones
+
+id2
+Sneakers
+Watches
+Cameras + Lenses
+Home Tech
+AirPods + Audio
+Drones + DJI
+Fitness + Cycling
+Video Games
+
+id3
+Sell
+Trade-In
+Sell iPhones
+Sell Phone
+Sell Tablet
+Sell Watch
+Sell Laptop
+Sell Sneakers
+Sell Apple
+
+id4
+IMEI Check
+Best Selling
+Download App
+Catalog
+Carriers
+Phone Repair
+Swappa vs. eBay
+
+id5
+Help
+FAQs
+Search
+ADA Accessibility
+Sustainability
+Prices
+Fees
+Returns + Refunds
+
+id6
+About Swappa
+Blog
+Forums
+Contact Us
+Product Request
+Press
+Policies
+Terms of Use
+
+
+
+
+
+
+

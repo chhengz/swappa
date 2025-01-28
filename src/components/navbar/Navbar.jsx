@@ -6,9 +6,6 @@ import { links } from './index'
 import { Logo, LogoWithText } from '../../assets/images'
 
 
-const styleImage = {
-  width: '20%'
-}
 
 const navLinks = [
   { label: <CircleHelp />, path: '/help', className: 'fa-solid fa-circle-question' },
@@ -19,46 +16,12 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    // <nav>
-
-    //     <ul>
-
-    //         {
-    //             links.map((link, index) => {
-    //                 return (
-    //                     <li key={index}>
-    //                         <Link to={link.path}>{link.label}
-
-    //                             {/* {
-
-    //                             (link.isDropdown) => (
-    //                                 <ul>
-    //                                     <li>Category 1</li>
-    //                                     <li>Category 2</li>
-    //                                     <li>Category 3</li>
-    //                                 </ul>
-    //                             )
-
-
-
-    //                         } */}
-    //                         </Link>
-    //                     </li>
-    //                 )
-    //             })
-    //         }
-
-    //     </ul>
-
-    // </nav>
 
     <>
 
-      <nav className="navbar makara navbar-expand-lg bg-success">
+      <nav className="navbar navbar-expand-lg bg-success" style={{width: 100+`%`, height: 80+`px`}}>
         <div className="container  gap-3">
-          <img src={LogoWithText} style={styleImage} />
-
-
+          <img src={LogoWithText} style={{width: 20+`%`}} />
 
           <form className="container">
             <div className="input-group">
