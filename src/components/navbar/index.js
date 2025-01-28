@@ -1,14 +1,3 @@
-// const links = [
-//     {label: "Home",          path: "/",              isDropdown: false},
-//     {label: "Categories",    path: "/categories",    isDropdown: true},
-//     {label: "About",         path: "/about",         isDropdown: false},
-//     {label: "Contact",       path: "/contact",       isDropdown: false},
-//     {label: "Login",         path: "/login",         isDropdown: false},
-//     {label: "Register",      path: "/register",      isDropdown: false},
-//     {label: "Sell",          path: "/sell",          isDropdown: false},
-// ]
-
-
 
 
 const links = [
@@ -30,7 +19,7 @@ const links = [
         
     },
     {
-        label: "IPhones", path: "/", 
+        label: "IPhones", path: "/iphone", 
         dropdownLists: [
             { label: 'Iphone 16 series',    path: '', },
             { label: 'Iphone 15 series',    path: '', },
@@ -48,7 +37,20 @@ const links = [
         
     },
     {
-        label: "Laptops", path: '/', 
+        label: "Phone", path: '/phone',
+        dropdownLists: [
+            { label: 'Unlocked',        path: '/phone' },
+            { label: 'Apple',        path: '/phone' },
+            { label: 'Samsung',        path: '/phone' },
+            { label: 'Google',        path: '/phone' },
+            { label: 'Verizon',        path: '/phone' },
+            { label: 'T-Moblie',        path: '/phone' },
+            { label: 'AT&T',        path: '/phone' },
+            { label: 'All Phones',        path: '/phone' },
+        ]
+    },
+    {
+        label: "Laptops", path: '/labtop', 
         dropdownLists: [
             { label: 'Macbook',         path: '' },
             { label: 'Macbook Pro',     path: '' },
@@ -61,7 +63,7 @@ const links = [
         
     },
     {
-        label: "Snekers", path: '/', 
+        label: "Snekers", path: '/sneaker', 
         dropdownLists: [
             { label: 'Air Jordan',      path: ''},
             { label: 'Air Max',         path: ''},
@@ -73,7 +75,7 @@ const links = [
         ],
     },
     {
-        label: "Watchs", path: '/', 
+        label: "Watchs", path: '/watch', 
         dropdownLists: [
             { label: 'Apple Watch',         path: ''},
             { label: 'Samsung Smartwatch',  path: ''},
@@ -82,13 +84,17 @@ const links = [
         ]
     },
     {
-        label: "Tablets", path: '/', 
+        label: "Tablets", path: '/tablet', 
         dropdownLists: [
-            { label: '', path: ''}
+            { label: 'iPad', path: ''},
+            { label: 'Samsung', path: ''},
+            { label: 'Windows / Surface', path: ''},
+            { label: 'Amazon / Kindle', path: ''},
+            { label: 'All Tablets', path: ''},
         ]
     },
     {
-        label: "Video Game", path: '/', 
+        label: "Video Game", path: '/videogame', 
         dropdownLists: [
             { label: 'PlayStation 5',       path: '' },
             { label: 'PlayStation 4',       path: '' },
@@ -99,7 +105,7 @@ const links = [
         ]
     },
     {
-        label: "More", path: '',
+        label: "More", path: '/features',
         dropdownLists: [
             { label: 'Audio & AirPods',     path: '' },
             { label: 'Cameras & Lenses',    path: '' },
@@ -110,7 +116,7 @@ const links = [
         ]
     },
     {
-        label: "Sell", path: '/',
+        label: "Sell", path: '/sell',
         dropdownLists: [
             { label: 'iPhone',          path: ''},
             { label: 'Phones',          path: ''},
@@ -126,5 +132,12 @@ const links = [
     }
 ]
 
+const navLinks = [
+    { label: '1', path: '#', className: 'fa-solid fa-circle-question' },
+    { label: '2', path: '#', className: 'fa-solid fa-user' },
+    { label: '3', path: '#', className: 'fa-solid fa-cart-shopping' },
+  ]
 
-export default links
+// export default links
+
+export { links, navLinks } 
