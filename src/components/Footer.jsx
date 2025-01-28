@@ -82,31 +82,30 @@ const links = [
     },
 ]
 
-
 const Footer = () => {
-  return (
-    <footer className="navbar navbar-expand-lg bg-success">
-        <div className="container gap-3 flex justify-center p-4" style={{width: 100+`%`}}>
-            <ul className="navbar-nav ">
-                {
-                    links.map((list) => (
-                        <li key={list.id}>
-                            <ul className="">
-                                {
-                                    list.lists.map((link) => ( 
-                                        <li key={link.label} className="nav-item">
-                                            <Link to={link.path} className="text-white">{link.label}</Link>
-                                        </li>
-                                    ))
-                                }
-                            </ul>
-                        </li>
-                    ))
-                }
-            </ul>
-        </div>
-    </footer>
-  )
+    return (
+        <footer className="navbar navbar-expand-lg bg-success">
+            <div className="container gap-3 flex justify-center p-4" style={{ width: 100 + `%` }}>
+                <ul className="navbar-nav ">
+                    {
+                        links.map((list) => (
+                            <li key={list.id}>
+                                <ul className="">
+                                    {
+                                        list.lists.map((link) => (
+                                            <li key={link.label} className="nav-item">
+                                                <Link to={link.path} className="text-white">{link.label}</Link>
+                                            </li>
+                                        ))
+                                    }
+                                </ul>
+                            </li>
+                        ))
+                    }
+                </ul>
+            </div>
+        </footer>
+    )
 }
 
 export default Footer

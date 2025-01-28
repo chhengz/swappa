@@ -19,5 +19,5 @@ const CardBrands = () => {
         </>
     )
 }
-// style="width: 170px; justify-content: center;"
+
 export default CardBrands
