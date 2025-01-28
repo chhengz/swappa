@@ -1,6 +1,7 @@
 
 
-const links = [
+
+export const links = [
     {
         label: "Apple", path: "/apple", 
         dropdownLists: [
@@ -132,12 +133,5 @@ const links = [
     }
 ]
 
-const navLinks = [
-    { label: '1', path: '#', className: 'fa-solid fa-circle-question' },
-    { label: '2', path: '#', className: 'fa-solid fa-user' },
-    { label: '3', path: '#', className: 'fa-solid fa-cart-shopping' },
-  ]
 
-// export default links
 
-export { links, navLinks } 

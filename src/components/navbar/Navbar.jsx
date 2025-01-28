@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {links, navLinks} from './index'
+import { CircleHelp, CircleUserRound, ShoppingCart } from 'lucide-react'
+
+import { links } from './index'
 import { Logo, LogoWithText } from '../../assets/images'
 
 
@@ -8,7 +10,11 @@ const styleImage = {
   width: '20%'
 }
 
-
+const navLinks = [
+  { label: <CircleHelp />, path: '/help', className: 'fa-solid fa-circle-question' },
+  { label: <CircleUserRound />, path: '/login', className: 'fa-solid fa-user' },
+  { label: <ShoppingCart />, path: '/shop', className: 'fa-solid fa-cart-shopping' },
+]
 
 
 const Navbar = () => {
