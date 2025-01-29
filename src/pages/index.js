@@ -1,8 +1,13 @@
 export { default as Home } from './Home'
 export { default as About } from './About'
+export { default as Buy } from './Buy'
 
 export { default as ErrorPage } from './ErrorPage'
 
+
+// Auth
+export { default as Login } from './Auth/Login'
+export { default as Register } from './Auth/Register'
 
 
 // components
