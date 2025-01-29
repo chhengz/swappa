@@ -4,7 +4,6 @@ const Features = () => {
   return (
     <>
         
-    
     </>
   )
 }

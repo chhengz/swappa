@@ -30,7 +30,6 @@ export const links = [
             { label: 'Iphone Pro series',   path: '', },
             { label: 'Iphone Max series',   path: '', },
             { label: 'Iphone SE series',    path: '', },
-
             { label: "Buyer's Guid",        path: '', },
             { label: "Sell iPhone",         path: '', },
             { label: "All iPhones",         path: '', },
@@ -41,13 +40,13 @@ export const links = [
         label: "Phone", path: '/phone',
         dropdownLists: [
             { label: 'Unlocked',        path: '/phone' },
-            { label: 'Apple',        path: '/phone' },
-            { label: 'Samsung',        path: '/phone' },
-            { label: 'Google',        path: '/phone' },
-            { label: 'Verizon',        path: '/phone' },
+            { label: 'Apple',           path: '/phone' },
+            { label: 'Samsung',         path: '/phone' },
+            { label: 'Google',          path: '/phone' },
+            { label: 'Verizon',         path: '/phone' },
             { label: 'T-Moblie',        path: '/phone' },
-            { label: 'AT&T',        path: '/phone' },
-            { label: 'All Phones',        path: '/phone' },
+            { label: 'AT&T',            path: '/phone' },
+            { label: 'All Phones',      path: '/phone' },
         ]
     },
     {

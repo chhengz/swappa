@@ -70,7 +70,7 @@ const links = [
     {
         id: 6,
         lists: [
-            { label: 'About Swappa', path: '' },
+            { label: 'About Swappa', path: 'about' },
             { label: 'Blog', path: '' },
             { label: 'Forums', path: '' },
             { label: 'Contact Us', path: '' },
