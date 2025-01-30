@@ -17,7 +17,7 @@ const CardCategories = () => {
                     categories.map((category) => (
                         <Link to={category.path} key={category.id}>
                             <div className="col mb-4" >
-                                <div className="card h-50 p-3">
+                                <div className="card card-hover h-50 p-3" >
                                     <img src={category.img} className="card-img-top" alt="card example" />
                                     <div className="card-body">
                                         <h5 className="card-title">{category.title}</h5>

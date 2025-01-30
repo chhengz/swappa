@@ -82,3 +82,6 @@ button:focus-visible {
   border: 0;
 }
 
+.card-hover:hover {
+  border: 2px solid #009a57;
+}

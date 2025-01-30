@@ -19,7 +19,7 @@ const CardFeature = () => {
                 }
             </div>
 
-            <div className="max-w-3xl mx-auto mt-5">
+            <div className="max-w-3xl mx-auto mt-5 ">
                 <nav className="navbar bg-body-tertiary ">
                     <div className="container">
                         <div className="text-center text-dark">
