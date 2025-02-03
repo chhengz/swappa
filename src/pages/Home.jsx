@@ -4,13 +4,10 @@ import { CardCategories, CarrierCardList, CardFeature, CardBrands } from "./inde
 const Home = () => {
   return (
     <>
-
-
       <CardCategories />
       <CarrierCardList />
       <CardFeature />
       <CardBrands />
-
     </>
   )
 }

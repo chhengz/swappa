@@ -1,12 +1,12 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
-import {Home, About, Login, Register, ErrorPage} from './pages'
+import {Home, About, Phones, Login, Register, ErrorPage} from './pages'
 import RootLayout from "./Layout/RootLayout"
 import BuyLayout from "./Layout/BuyLayout"
 
 
 function App() {
   const routers = createBrowserRouter([
-    hello hshjahsdjahsd
+
     {
       path: '/',
       element: <RootLayout />,
@@ -16,21 +16,19 @@ function App() {
           index: true,
           element: <Home />
         },
-      ]
-    },
-    {
-      path: '/buy',
-      element: <BuyLayout />,
-      children: [
-        {}
+        {
+          path: 'phones',
+          element: <Phones />
+        },
+        {
+          path: 'laptop',
+          element: <h1>Laptop</h1>,
+        }
       ]
     },
     {
       path: '/about',
       element: <About />
-    },
-    {
-      path: '/help'
     },
     
   ])

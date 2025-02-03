@@ -1,6 +1,7 @@
 export { default as Home } from './Home'
 export { default as About } from './About'
 export { default as Buy } from './Buy'
+export { default as Phones } from './Product/Phones'
 
 export { default as ErrorPage } from './ErrorPage'
 

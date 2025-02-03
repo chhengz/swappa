@@ -10,7 +10,7 @@ export const categories = [
         img: "https://static.swappa.com/static/images/categories/retro/category_phones_300x300.png",
         title: "Phones + iPhones",
         description: "",
-        path: '/phone'
+        path: '/phones'
     },
     {
         id: 2,
