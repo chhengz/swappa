@@ -1,5 +1,5 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
-import {Home, About, Phones, Login, Register, ErrorPage} from './pages'
+import {Home, About, Phones, Laptops, Login, Register, ErrorPage} from './pages'
 import RootLayout from "./Layout/RootLayout"
 import BuyLayout from "./Layout/BuyLayout"
 
@@ -18,11 +18,20 @@ function App() {
         },
         {
           path: 'phones',
-          element: <Phones />
+          children: [
+            {
+              index: true,
+              element: <Phones />
+            },
+            {
+              path: ':id',
+              element: <h1>Phone Details</h1>,
+            },
+          ]
         },
         {
           path: 'laptop',
-          element: <h1>Laptop</h1>,
+          element: <Laptops />,
         }
       ]
     },
