@@ -1,7 +1,6 @@
 import React from 'react'
 import CarrierCardList from '../../components/Card/CarrierCardList'
 import { phones, samsung, pixels } from '../../Data/products'
-
 import Card from '../../components/Card/Card';
 
 const Phones = () => {
@@ -26,6 +25,7 @@ const Phones = () => {
                     title={item.title}
                     price={item.price}
                     stars={item.stars}
+                    category={item.category}
                    />
                 ))
               }
@@ -43,6 +43,7 @@ const Phones = () => {
                     title={item.title}
                     price={item.price}
                     stars={item.stars}
+                    category={item.category}
                    />
                 ))
               }
@@ -61,6 +62,7 @@ const Phones = () => {
                     title={item.title}
                     price={item.price}
                     stars={item.stars}
+                    category={item.category}
                    />
                 ))
               }

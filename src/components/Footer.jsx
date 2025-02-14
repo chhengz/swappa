@@ -86,10 +86,10 @@ const Footer = () => {
     return (
         <footer className="navbar navbar-expand-lg bg-success">
             <div className="container gap-3 flex justify-center p-4" style={{ width: 100 + `%` }}>
-                <ul className="navbar-nav ">
+                <ul className="navbar-nav">
                     {
                         links.map((list) => (
-                            <li key={list.id}>
+                            <li key={list.id} className="ms-5">
                                 <ul className="">
                                     {
                                         list.lists.map((link) => (

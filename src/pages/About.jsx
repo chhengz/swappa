@@ -5,7 +5,7 @@ const members = [
   { name: 'Vang Sokchheng', email: 'vang.sokchheng.1222@rupp.edu.kh', role: 'Leader' },
   { name: 'Phan Davith', email: 'phan.davith.1222@rupp.edu.kh', role: 'Member' },
   { name: 'Moeun Makara', email: 'moeun.makara.1222@rupp.edu.kh', role: 'Member' },
-  { name: '', email: '.1222@rupp.edu.kh', role: 'Member' },
+  { name: 'Song Bunleap', email: 'song.bunleap.1222@rupp.edu.kh', role: 'Member' },
 ]
 
 const About = () => {

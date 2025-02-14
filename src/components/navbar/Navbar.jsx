@@ -17,7 +17,10 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-success" style={{ width: 100 + `%`, height: 80 + `px`, position: `fixed`, top: 0+`px`, zIndex: 1000 }}>
         <div className="container  gap-3">
-          <img src={LogoWithText} style={{ width: 20 + `%` }} />
+
+          <Link to="/" style={{ width: 25 + `%` }} >
+            <img src={LogoWithText} style={{ width: 100 + `%` }} />
+          </Link>
           <form className="container">
             <div className="input-group">
               <input type="text" className="form-control" placeholder="Find a good deal" aria-label="Username" aria-describedby="basic-addon1" />

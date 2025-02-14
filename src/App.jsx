@@ -1,5 +1,5 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
-import {Home, About, Phones, Laptops, Login, Register, ErrorPage} from './pages'
+import {Login, Register, ErrorPage, Home, About, Phones, Laptops,Watches, ProductDetails, IphoneDetails, SumsungDetails } from './pages'
 import RootLayout from "./Layout/RootLayout"
 import BuyLayout from "./Layout/BuyLayout"
 
@@ -24,14 +24,22 @@ function App() {
               element: <Phones />
             },
             {
-              path: ':id',
-              element: <h1>Phone Details</h1>,
+              path: 'iphone/:id',
+              element: <IphoneDetails />,
             },
+            {
+              path: 'sumsung/:id',
+              element: <SumsungDetails />,
+            }
           ]
         },
         {
           path: 'laptop',
           element: <Laptops />,
+        },
+        {
+          path: 'watch',
+          element: <Watches />  
         }
       ]
     },
