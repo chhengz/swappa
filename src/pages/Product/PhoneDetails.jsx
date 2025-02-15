@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { phones } from '../../Data/products';
+import { phones } from '../../Data/data';
 
 const PhoneDetails = () => {
     const { id } = useParams();

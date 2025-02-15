@@ -16,7 +16,7 @@ const Card = ({ id, category, img, title, price, stars }) => {
   // const slug = convertToSlug(title);
 
   return (
-    <div className="col" key={id}>
+    <div className="col">
       {/* <Link to={slug.toString()}> */}
       <Link to={category+`/`+id.toString()}>
         <div className="card">

@@ -43,8 +43,7 @@ const Phones = () => {
       <div className="mt-4">
         <div className="text-center text-dark mt-4">
           <h1>
-            <i className="fa-solid fa-mobile-screen-button mx-3"></i>Samsung
-            Phones
+            <i className="fa-solid fa-mobile-screen-button mx-3"></i>Samsung Phones
           </h1>
         </div>
         <div className="row row-cols-1 row-cols-md-6 justify-content-center d-flex mt-5 w-75 mx-auto ">
@@ -67,8 +66,7 @@ const Phones = () => {
       <div className="mt-4">
         <div className="text-center text-dark mt-4">
           <h1>
-            <i className="fa-solid fa-mobile-screen-button mx-3"></i>Google
-            Pixels
+            <i className="fa-solid fa-mobile-screen-button mx-3"></i>Google Pixels
           </h1>
         </div>
         <div className="row row-cols-1 row-cols-md-6 justify-content-center d-flex mt-5 w-75 mx-auto ">
