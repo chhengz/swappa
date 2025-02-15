@@ -61,7 +61,7 @@ export const phones = [
 export const samsung = [
     {
         id: 1,
-        category: 'sumsung',
+        category: 'samsung',
         img: "https://static.swappa.com/images/cache/81/0c/810ccf9c2a3e60fc4ce7ad0185e93129.png",
         title:"Samsung Galaxy S20 FE 5G",
         price: 113,
@@ -69,7 +69,7 @@ export const samsung = [
     },
     {
         id:2,
-        category: 'sumsung',
+        category: 'samsung',
         img:"https://static.swappa.com/images/cache/54/ec/54ec9ce3b849e245ecd3089f827c99d2.png",
         title:"Samsung Galaxy S21 5S",
         price: 134,
@@ -77,7 +77,7 @@ export const samsung = [
     },
     {
         id:3,
-        category: 'sumsung',
+        category: 'samsung',
         img:"https://static.swappa.com/images/cache/54/ec/54ec9ce3b849e245ecd3089f827c99d2.png",
         title:"Samsung Galaxy S22",
         price: 178,
@@ -85,7 +85,7 @@ export const samsung = [
     },
     {
         id:4,
-        category: 'sumsung',
+        category: 'samsung',
         img:"https://static.swappa.com/images/cache/85/2b/852b1eeb6eaf222336ac34a505088bcd.png",
         title:"Samsung Galaxy S24 Ultra",
         price: 643,
@@ -93,7 +93,7 @@ export const samsung = [
     },
     {
         id:5,
-        category: 'sumsung',
+        category: 'samsung',
         img:"https://static.swappa.com/images/cache/a6/35/a635714b488fa86f88c725d1de6ded21.png",
         title:"Samsung Galaxy S23 Ultra",
         price: 478,

@@ -1,13 +1,12 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import { laptops } from '../../Data/data'
-import {Link} from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom';
+import { phones } from '../../Data/products';
 
-const LaptopDetails = () => {
+const PhoneDetails = () => {
     const { id } = useParams();
-    const laptop = laptops.find((prod) => prod.id === parseInt(id));
+    const product = phones.find((prod) => prod.id === parseInt(id));
 
-    if (!laptops) {
+    if (!product) {
         return <div>Product not found!</div>;  // Show this message if the product is not found
     }
 
@@ -15,24 +14,23 @@ const LaptopDetails = () => {
     <div className="row">
         <div className="col-6 p-3">
             <div className="product-details text-center">
-                <img src={laptop.img} alt={laptop.title} />
+                <img src={product.img} alt={product.title} />
             </div>
         </div>
         <div className="col-6">
             <div className='mt-4 '>
-               <h1>{laptop.title}</h1>
+               <h1>{product.title}</h1>
                 {/* <p>Category: {product.category}</p> */}
-                <h3 className='text-success'>Price: ${laptop.price}</h3>
-                {/* {laptop.stars.map((star, index) => (
+                <h3 className='text-success'>Price: ${product.price}</h3>
+                {product.stars.map((star, index) => (
                 <span className='text-warning' key={index}>&#9733;</span>  
-                ))} */}
-                <Link to="/laptop">Back</Link>
+                ))}
             </div>
+            <Link to="/phones">Back</Link>
         </div>
-        
     </div>
   )
 }
 
-export default LaptopDetails
+export default PhoneDetails
 

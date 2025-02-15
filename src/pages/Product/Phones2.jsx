@@ -1,9 +1,9 @@
 import React from 'react'
 import CarrierCardList from '../../components/Card/CarrierCardList'
-import { phones } from '../../Data/products'
+import { phones } from '../../Data/data'
 import Card from '../../components/Card/Card';
 
-const Phones = () => {
+const Phones2 = () => {
   return (
     <div>
         <div className="text-center text-dark mt-2"><h3>Phones For Sale</h3></div>
@@ -83,4 +83,4 @@ const Phones = () => {
   )
 }
 
-export default Phones;
+export default Phones2;

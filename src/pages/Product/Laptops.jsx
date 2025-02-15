@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 import { FaApple, FaChrome } from "react-icons/fa";
 import { FaWindows } from "react-icons/fa6";
 // import CardLaptops from "../../components/Card/CardLaptops"
-import { macbook_laptops, windows_laptops, chromebooks } from "../../Data/products"
+// import { macbook_laptops, windows_laptops, chromebooks } from "../../Data/products"
+import { laptops } from '../../Data/data'
+
 
 const Laptops = () => {
     return (
@@ -15,14 +17,15 @@ const Laptops = () => {
                 <div className='mt-4'>
                     <div className="row row-cols-1 row-cols-md-2 justify-content-center d-flex mt-5 w-75 mx-auto ">
                         {
-                            macbook_laptops.map((item) => (
+                            laptops.filter(item => item.category === 'macbook').map((item) => (
                                 <div className="col" key={item.id}>
-                                    <Link to={item.category + `/` + id.toString()}>
+                                    <Link to={item.category + `/` + item.id.toString()}>
                                         <div className="card ">
                                             <img src={item.img} className="card-img-top mx-auto mt-4" style={{ width: 140 + `px` }} alt="AT&T" />
                                             <p className="text-center ">{item.title}</p>
                                             <h5 className="text-success mt-2 mx-4">${item.price}</h5>
                                         </div>
+                                        
                                     </Link>
                                 </div>
                             ))
@@ -38,9 +41,9 @@ const Laptops = () => {
                 <div className='mt-4'>
                     <div className="row row-cols-1 row-cols-md-6 justify-content-center d-flex mt-5 w-100 mx-auto ">
                         {
-                            windows_laptops.map((item) => (
+                            laptops.filter(item => item.category === 'windows').map((item) => (
                                 <div className="col" key={item.id}>
-                                    <Link to={item.category + `/` + id.toString()}>
+                                    <Link to={item.category + `/` + item.id.toString()}>
                                         <div className="card ">
                                             <img src={item.img} className="card-img-top mx-auto mt-4" style={{ width: 100 + `px` }} alt="AT&T" />
                                             <p className="text-center ">{item.title}</p>
@@ -62,9 +65,9 @@ const Laptops = () => {
                 <div className='mt-4'>
                     <div className="row row-cols-1 row-cols-md-6 justify-content-center d-flex mt-5 w-100 mx-auto ">
                         {
-                            chromebooks.map((item) => (
+                            laptops.filter(item => item.category === 'chromebook').map((item) => (
                                 <div className="col" key={item.id}>
-                                    <Link to={item.category + `/` + id.toString()}>
+                                    <Link to={item.category + `/` + item.id.toString()}>
                                         <div className="card ">
                                             <img src={item.img} className="card-img-top mx-auto mt-4" style={{ width: 100 + `px` }} alt="AT&T" />
                                             <p className="text-center ">{item.title}</p>

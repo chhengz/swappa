@@ -5,6 +5,12 @@ export { default as Phones } from './Product/Phones'
 export { default as Laptops } from './Product/Laptops'
 export { default as Watches } from './Product/Watches'
 
+
+// unit test
+export { default as Phones2 } from './Product/Phones2'
+
+
+// 404 page
 export { default as ErrorPage } from './ErrorPage'
 
 
@@ -13,6 +19,9 @@ export { default as ProductDetails } from './Product/ProductDetails'
 export { default as IphoneDetails } from './Product/IphoneDetails'
 export { default as SumsungDetails } from './Product/SumsungDetails'
 
+export { default as PhoneDetails } from './Product/PhoneDetails'
+export { default as WatchDetails } from './Product/WatchDetails'
+export { default as LaptopDetails } from './Product/LaptopDetails'
 
 // Auth
 export { default as Login } from './Auth/Login'

@@ -1,60 +1,110 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom"
-import {Login, Register, ErrorPage, Home, About, Phones, Laptops,Watches, ProductDetails, IphoneDetails, SumsungDetails } from './pages'
-import RootLayout from "./Layout/RootLayout"
-import BuyLayout from "./Layout/BuyLayout"
-
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import {
+  Login,
+  Register,
+  ErrorPage,
+  Home,
+  About,
+  Phones,
+  Laptops,
+  Watches,
+  ProductDetails,
+  IphoneDetails,
+  SumsungDetails,
+  LaptopDetails,
+  PhoneDetails,
+  WatchDetails,
+} from "./pages";
+import RootLayout from "./Layout/RootLayout";
+import BuyLayout from "./Layout/BuyLayout";
 
 function App() {
   const routers = createBrowserRouter([
-
     {
-      path: '/',
+      path: "/",
       element: <RootLayout />,
       errorElement: <ErrorPage />,
       children: [
         {
           index: true,
-          element: <Home />
+          element: <Home />,
         },
         {
-          path: 'phones',
+          path: "phones",
           children: [
             {
               index: true,
-              element: <Phones />
+              element: <Phones />,
             },
             {
-              path: 'iphone/:id',
-              element: <IphoneDetails />,
+              path: "iphone/:id",
+              element: <PhoneDetails />,
             },
             {
-              path: 'sumsung/:id',
-              element: <SumsungDetails />,
+              path: "samsung/:id",
+              element: <PhoneDetails />,
+            },
+            {
+              path: "pixel/:id",
+              element: <PhoneDetails />,
+            },
+          ],
+        },
+        {
+          path: "laptop",
+          children: [
+            {
+              index: true,
+              element: <Laptops />,
+            },
+            {
+              path: "macbook/:id",
+              element: <LaptopDetails />,
+            },
+            {
+              path: "windows/:id",
+              element: <LaptopDetails />,
+            },
+            {
+              path: "chromebook/:id",
+              element: <LaptopDetails />,
+            },
+          ],
+        },
+        {
+          path: "watch",
+          children: [
+            {
+              index: true,
+              element: <Watches />,
+            },
+            {
+              path: 'apple/:id',
+              element: <WatchDetails />
+            },
+            {
+              path: 'android/:id',
+              element: <WatchDetails />
+            },
+            {
+              path: 'fitness/:id',
+              element: <WatchDetails />
             }
           ]
         },
-        {
-          path: 'laptop',
-          element: <Laptops />,
-        },
-        {
-          path: 'watch',
-          element: <Watches />  
-        }
-      ]
+      ],
     },
     {
-      path: '/about',
-      element: <About />
+      path: "/about",
+      element: <About />,
     },
-    
-  ])
+  ]);
 
   return (
     <>
       <RouterProvider router={routers} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
